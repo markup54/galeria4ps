@@ -11,7 +11,11 @@
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:numStars="6"
+        android:max="10"
+        android:isIndicator="true"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,9 +46,17 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textViewOpis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Anna Purna" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="6"
+        android:max="10"/>
 
     <Button
         android:id="@+id/button"
@@ -52,9 +64,6 @@
         android:layout_height="wrap_content"
         android:text="oceń" />
 
-    <RatingBar
-        android:id="@+id/ratingBar2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
